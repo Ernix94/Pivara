@@ -1,0 +1,171 @@
+footer {
+    text-align: center;
+    padding: 150px 0;
+    color: rgba(66, 63, 62, 0.5);
+    background: url(../images/footer.jpg);
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    position: relative;
+    
+}
+
+.logo--light path {
+    fill: #D1C9C1;
+}
+
+footer .logo {
+    margin: 20px auto;
+    @extend %is-not-showingX;
+    &.is-showing {
+        @extend %is-showingX;
+    }
+}
+
+// @media (max-width: 600px) {
+//     footer {
+//         background-size: 35%;
+        
+//     }
+// }
+
+.social {
+        
+    &--facebook {
+            position: absolute;
+            top: 40%;
+            right: 15%;
+            color: rgb(57, 172, 211);
+            font-size: 50px;
+
+        &:hover {
+            color: rgb(41, 41, 182);
+        }
+    }
+
+    &--instagram {
+        position: absolute;
+        top: 40%;
+        // left: 45%;
+        right: 10%;
+        color: #3f729b;
+        font-size: 50px;
+
+        &:hover {
+           color: purple;
+        }
+    }
+
+}
+
+.date {
+    position: absolute;
+    bottom: 8%;
+    left: 40%;
+    
+}
+
+.info {
+    text-align:left;
+    padding-left: 10rem;
+    text-decoration: none;
+    text-transform:uppercase;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 2px;
+    
+    font-size: 1.5rem;
+}
+
+.valami {
+    padding-bottom:1.5rem ;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+
+@media (max-width:910px) {
+
+  .valami{
+    padding-bottom: .5rem;
+  }
+    
+    .info {
+        position: absolute;
+        font-size: 1.3rem;
+        left: 2%;
+        top: 2%;
+        padding-left: 0;
+      }
+
+      footer {
+        background-position: bottom left;
+        background-size: 44%;
+      }
+
+      .date {
+          position: absolute;
+          right: 3%;
+      }
+
+      .social {
+          &--facebook {
+              font-size: 3rem;
+              position: absolute;
+              top: 3%;
+              left: 50%;
+          }
+
+          &--instagram {
+              top: 3%;
+          }
+      }
+  
+     
+     
+    }
+    
+    // #videBG {
+    //     position: fixed;
+    //     z-index: -3;
+    //     display: cover;
+    // }
+
+    @media screen and (max-width: 600px) {
+
+        .social {
+            &--facebook {
+                font-size: 2rem;
+                position: absolute;
+                top: 3%;
+               right: .5%;
+            }
+  
+            &--instagram {
+                top: 3%;
+                font-size: 2rem;
+            }
+        }
+
+        .info {
+            position: absolute;
+            font-size: 1.1rem;
+            left: 2%;
+            top: 2%;
+            padding-left: 0;
+          }
+
+          .date {
+            position: absolute;
+            right: 3%;
+            font-size: .7rem;
+        }
+
+        footer {
+            background-position: bottom left;
+            background-size: 47%;
+          }
+
+    }
+
