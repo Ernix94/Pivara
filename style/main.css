@@ -222,6 +222,26 @@ nav li:hover::after {
   }
 }
 
+.order {
+  text-align: center;
+}
+
+.order-info {
+  margin-bottom: 2rem;
+}
+
+.order-info-last {
+  padding-bottom: 5rem;
+}
+
+.jumbotron {
+  background-color: #1d611d;
+  background-image: url(../images/hero-4.jpg);
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
 .section--mission,
 .section--taproom {
   background-image: url(../images/hero-4.jpg);
@@ -716,6 +736,10 @@ a {
     background-position: bottom left;
     background-size: 47%;
   }
+}
+
+.date-dostava {
+  margin-top: 20rem;
 }
 
 * {

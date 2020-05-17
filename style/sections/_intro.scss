@@ -172,3 +172,29 @@
     margin-top: 20rem;
   }
 }
+
+.order {
+  text-align: center;
+  
+  &-info {
+    margin-bottom:2rem;
+  }
+
+  &-info-last {
+    padding-bottom: 5rem;
+  }
+}
+
+.jumbotron {
+
+  background-color: rgb(29, 97, 29);
+  background-image: url(../images/hero-4.jpg);
+  color: white;
+  text-align: center;
+  width: 100%;
+
+}
+
+
+
+
