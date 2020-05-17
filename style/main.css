@@ -211,6 +211,17 @@ nav li:hover::after {
   }
 }
 
+@media only screen and (max-width: 1000px) and (min-width: 600px) {
+  .heading-primary--main {
+    font-size: 3rem;
+    letter-spacing: .3rem;
+    margin-bottom: 3rem;
+  }
+  .intro__text {
+    margin-top: 20rem;
+  }
+}
+
 .section--mission,
 .section--taproom {
   background-image: url(../images/hero-4.jpg);
@@ -633,6 +644,19 @@ footer .logo {
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: 3px;
   text-decoration: underline;
+}
+
+a:hover {
+  color: blue;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.link {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 @media (max-width: 910px) {
