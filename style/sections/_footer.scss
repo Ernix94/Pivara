@@ -85,10 +85,10 @@ footer .logo {
     text-decoration: underline;
 }
 
-a:hover{    
-    color: blue;
+// a:hover{    
+//     color: blue;
     
-}
+// }
 
 a{
     text-decoration: underline;
@@ -97,6 +97,10 @@ a{
 .link {
     text-decoration: underline;
     font-weight: bold;
+}
+
+.link:hover {
+    color: blue;
 }
 
 @media (max-width:910px) {
