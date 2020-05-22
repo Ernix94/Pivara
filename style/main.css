@@ -331,7 +331,7 @@ nav li:hover::after {
   color: #414A4D;
 }
 
-.btn {
+.btn-main {
   padding: 6px 20px;
   font-family: "Passion One", sans-serif;
   border-radius: 7px;
@@ -346,23 +346,23 @@ nav li:hover::after {
   left: 0;
 }
 
-.btn.btn--light {
+.btn-main.btn--light {
   background: #D5C8C0;
   color: #414A4D;
 }
 
-.btn.btn--dark {
+.btn-main.btn--dark {
   background: #414A4D;
   color: #D5C8C0;
 }
 
-.btn.btn--outline {
+.btn-main.btn--outline {
   color: #414A4D;
   background: transparent;
   border: 2px solid #414A4D;
 }
 
-.btn:hover {
+.btn-main:hover {
   left: -3px;
   top: -3px;
   -webkit-box-shadow: 2px 5px 2px #0004;
@@ -412,6 +412,50 @@ nav li:hover::after {
     height: 250px;
     z-index: -1;
     width: 80%;
+  }
+}
+
+.gomb {
+  padding: 6px 20px;
+  font-family: "Passion One", sans-serif;
+  font-size: 25px;
+  border-radius: 7px;
+  margin-right: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 10rem;
+  margin-left: 15rem;
+  z-index: 2;
+  -webkit-transition: all 100ms ease;
+  transition: all 100ms ease;
+  top: 0;
+  left: 0;
+  background: #D5C8C0;
+  color: #414A4D;
+}
+
+.gomb:hover {
+  left: -3px;
+  top: -3px;
+  -webkit-box-shadow: 2px 5px 2px #0004;
+          box-shadow: 2px 5px 2px #0004;
+}
+
+.button-dostava {
+  position: relative;
+  margin-left: 48%;
+  margin-top: 1rem;
+}
+
+@media (max-width: 420px) {
+  .gomb {
+    position: inherit;
+    margin-left: 2rem;
+    top: 5%;
+  }
+  .button-dostava {
+    margin-left: 41%;
   }
 }
 
@@ -717,7 +761,8 @@ a {
     right: .5%;
   }
   .social--instagram {
-    top: 3%;
+    top: 20%;
+    right: 22%;
     font-size: 2rem;
   }
   .info {

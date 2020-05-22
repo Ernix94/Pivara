@@ -71,7 +71,7 @@
     }
 }  
 
-.btn {
+.btn-main {
     padding: 6px 20px;
     font-family: $bold;
     border-radius: 7px;
@@ -87,6 +87,7 @@
     &.btn--light {
         background: #D5C8C0;
         color: #414A4D;
+        
     }
     &.btn--dark {
         background: #414A4D;
@@ -141,4 +142,60 @@
             width: 80%;
         }
     }
+}
+
+// .btn-light {
+//     height: 45px;
+//     margin-top: 15px;
+//     font-size: 28px ;
+//     padding-bottom: 50px;
+//     background-color: rgba(255, 255, 255, 0.808);
+// }
+
+.gomb {
+    padding: 6px 20px;
+    font-family: $bold;
+    font-size: 25px;
+    border-radius: 7px;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    position: absolute;
+    margin-top:10rem;
+    margin-left: 15rem;
+    z-index: 2;
+    transition: all 100ms ease;
+    top: 0;
+    left: 0;
+        background: #D5C8C0;
+        color: #414A4D;
+        &:hover {
+            left: -3px;
+            top: -3px;
+            box-shadow: 2px 5px 2px #0004
+        }
+        
+}
+
+.button-dostava {
+ position: relative;
+ margin-left: 48%;
+ margin-top: 1rem;
+
+}
+
+@media (max-width: 420px) {
+
+    .gomb {
+        position: inherit;
+     
+        margin-left: 2rem;
+        top: 5%;
+    }
+
+    .button-dostava {
+
+        margin-left: 41%;
+    } 
+
 }
