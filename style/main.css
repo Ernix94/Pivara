@@ -445,7 +445,7 @@ nav li:hover::after {
 .button-dostava {
   position: relative;
   margin-left: 48%;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 @media (max-width: 420px) {
@@ -757,13 +757,15 @@ a {
   .social--facebook {
     font-size: 2rem;
     position: absolute;
-    top: 3%;
-    right: .5%;
+    top: 56%;
+    left: 18%;
+    width: 2rem;
   }
   .social--instagram {
-    top: 20%;
-    right: 22%;
+    top: 56%;
+    left: 5%;
     font-size: 2rem;
+    width: 2rem;
   }
   .info {
     position: absolute;
@@ -785,6 +787,49 @@ a {
 
 .date-dostava {
   margin-top: 20rem;
+}
+
+.social--facebook--dostava {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  color: #39acd3;
+  font-size: 50px;
+  z-index: 500;
+  width: 3rem;
+}
+
+.social--facebook--dostava:hover {
+  color: #2929b6;
+}
+
+.social--instagram--dostava {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  color: #3f729b;
+  font-size: 50px;
+  z-index: 500;
+}
+
+.social--instagram--dostava:hover {
+  color: purple;
+}
+
+@media screen and (max-width: 600px) {
+  .social--facebook--dostava {
+    font-size: 2.3rem;
+    position: absolute;
+    top: 56%;
+    left: 18%;
+    width: 2rem;
+  }
+  .social--instagram--dostava {
+    top: 56%;
+    left: 5%;
+    font-size: 2.3rem;
+    width: 2rem;
+  }
 }
 
 * {
