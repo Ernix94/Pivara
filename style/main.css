@@ -526,6 +526,11 @@ nav li:hover::after {
   text-align: center;
 }
 
+.text-muted {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 .section--beer {
   text-align: center;
   padding: 6rem 1rem;
