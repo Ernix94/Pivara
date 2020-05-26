@@ -478,18 +478,25 @@ nav li:hover::after {
     width: 20%;
   }
   .card-img-top {
-    margin-left: 1rem;
-    width: 50%;
+    margin-left: 0rem;
+    width: 100%;
   }
   .card-deck {
     margin-top: 5rem;
     width: 5rem;
   }
   .card-body {
-    width: 70%;
+    width: 100%;
   }
   .card-columns {
-    margin-left: 0%;
+    margin-left: 5%;
+    width: 5rem;
+  }
+  .card-dostava {
+    width: 100%;
+  }
+  .card-text {
+    font-size: 1rem;
   }
 }
 

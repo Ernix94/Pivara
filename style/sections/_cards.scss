@@ -223,8 +223,8 @@
 
     .card-img-top {
     
-        margin-left: 1rem;
-        width: 50%;
+        margin-left: 0rem;
+        width: 100%;
     } 
 
 
@@ -234,13 +234,23 @@
     }
 
     .card-body {
-        width: 70%;
+        width: 100%;
     }
 
 
     .card-columns {
-    margin-left: 0%;
+    margin-left: 5%;
+    width: 5rem;
     }
+
+    .card-dostava {
+    width: 100%;
+    
+}
+
+.card-text {
+    font-size: 1rem;
+}
 
 }
 
@@ -273,3 +283,7 @@
 .text-majice {
     text-align: center;
 }
+
+// .card-dostava {
+//     width: 20%;
+// }
