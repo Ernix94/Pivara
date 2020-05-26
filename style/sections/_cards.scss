@@ -245,6 +245,7 @@
 
     .card-dostava {
     width: 100%;
+    box-shadow: .7rem .5rem .5rem rgba(rgb(100, 190, 77), .60);
     
 }
 
@@ -278,6 +279,7 @@
     width: 70%;
     margin-left: 15%;
     margin-top: 3rem;
+    
 }
 
 .text-majice {
@@ -293,4 +295,14 @@
    text-decoration: underline;
    font-weight: bold;
    
+}
+
+.card-dostava {
+    transition: all 0.3s;
+
+
+    &:hover {
+        box-shadow: .7rem .5rem .5rem rgba(rgb(100, 190, 77), .60);
+        transform: translateY(-5px);
+    }
 }

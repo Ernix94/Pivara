@@ -494,6 +494,8 @@ nav li:hover::after {
   }
   .card-dostava {
     width: 100%;
+    -webkit-box-shadow: 0.7rem 0.5rem 0.5rem rgba(100, 190, 77, 0.6);
+            box-shadow: 0.7rem 0.5rem 0.5rem rgba(100, 190, 77, 0.6);
   }
   .card-text {
     font-size: 1rem;
@@ -529,6 +531,18 @@ nav li:hover::after {
 .text-muted {
   text-decoration: underline;
   font-weight: bold;
+}
+
+.card-dostava {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.card-dostava:hover {
+  -webkit-box-shadow: 0.7rem 0.5rem 0.5rem rgba(100, 190, 77, 0.6);
+          box-shadow: 0.7rem 0.5rem 0.5rem rgba(100, 190, 77, 0.6);
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
 }
 
 .section--beer {
