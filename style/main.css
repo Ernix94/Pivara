@@ -459,6 +459,66 @@ nav li:hover::after {
   }
 }
 
+.card-deck {
+  margin-top: 5rem;
+  margin-left: 20rem;
+  margin-right: 2rem;
+  width: 65%;
+}
+
+.card-img-top {
+  height: 60%;
+  width: 100%;
+  margin-left: 1rem;
+}
+
+@media (max-width: 420px) {
+  .card-deck {
+    margin-left: 0rem;
+    width: 20%;
+  }
+  .card-img-top {
+    margin-left: 1rem;
+    width: 50%;
+  }
+  .card-deck {
+    margin-top: 5rem;
+    width: 5rem;
+  }
+  .card-body {
+    width: 70%;
+  }
+  .card-columns {
+    margin-left: 0%;
+  }
+}
+
+.card-title {
+  font-weight: 900;
+}
+
+.text-muted {
+  padding-top: 5rem;
+}
+
+.img-src {
+  height: 15rem;
+}
+
+.mr-3 {
+  height: 10rem;
+}
+
+.card-columns {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 3rem;
+}
+
+.text-majice {
+  text-align: center;
+}
+
 .section--beer {
   text-align: center;
   padding: 6rem 1rem;
