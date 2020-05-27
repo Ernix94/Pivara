@@ -307,16 +307,15 @@
 
 
 .text-muted {
-   text-decoration: underline;
+//    text-decoration: underline;
    font-weight: bold;
    font-size: .8rem;
-   
 }
 
 .card-dostava {
     transition: all 0.3s;
-
-
+    // background-image: url(../images/dynamic-style.png);
+    // background-color: rgb(117, 66, 66);
     &:hover {
         box-shadow: .7rem .5rem .5rem rgba(rgb(100, 190, 77), .60);
         transform: translateY(-5px);
@@ -330,4 +329,24 @@
 
 .card-body {
  width: 100%;
+ text-align: left;
 }
+
+// .backg{
+//     background-image: url(../images/backg-1.png);
+// }
+
+.p-info {
+    font-size: 1rem;
+    text-align: left;
+}
+
+.card-title {
+    text-align: center;
+}
+
+
+
+
+
+

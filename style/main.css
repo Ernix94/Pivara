@@ -542,7 +542,6 @@ nav li:hover::after {
 }
 
 .text-muted {
-  text-decoration: underline;
   font-weight: bold;
   font-size: .8rem;
 }
@@ -565,6 +564,16 @@ nav li:hover::after {
 
 .card-body {
   width: 100%;
+  text-align: left;
+}
+
+.p-info {
+  font-size: 1rem;
+  text-align: left;
+}
+
+.card-title {
+  text-align: center;
 }
 
 .section--beer {
