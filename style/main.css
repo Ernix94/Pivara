@@ -489,21 +489,34 @@ nav li:hover::after {
     width: 100%;
   }
   .card-columns {
-    margin-left: 5%;
-    width: 5rem;
+    margin-left: 0%;
+    width: 10rem;
   }
   .card-dostava {
     width: 100%;
-    -webkit-box-shadow: 0.7rem 0.5rem 0.5rem rgba(100, 190, 77, 0.6);
-            box-shadow: 0.7rem 0.5rem 0.5rem rgba(100, 190, 77, 0.6);
+    -webkit-box-shadow: 0.7rem 0.5rem 0.5rem rgba(32, 34, 31, 0.6);
+            box-shadow: 0.7rem 0.5rem 0.5rem rgba(32, 34, 31, 0.6);
   }
-  .card-text {
+  #card-columns-div {
+    margin-left: 0rem;
+    width: 100%;
+  }
+  .order {
     font-size: 1rem;
   }
+  .date-dostava {
+    position: absolute;
+    bottom: 1%;
+  }
+}
+
+.card-text {
+  font-size: 1rem;
 }
 
 .card-title {
   font-weight: 900;
+  font-size: 1.7rem;
 }
 
 .text-muted {
@@ -531,6 +544,7 @@ nav li:hover::after {
 .text-muted {
   text-decoration: underline;
   font-weight: bold;
+  font-size: .8rem;
 }
 
 .card-dostava {
@@ -543,6 +557,14 @@ nav li:hover::after {
           box-shadow: 0.7rem 0.5rem 0.5rem rgba(100, 190, 77, 0.6);
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.card-body {
+  width: 100%;
 }
 
 .section--beer {
@@ -844,12 +866,12 @@ a {
     font-size: 2rem;
     position: absolute;
     top: 56%;
-    left: 18%;
+    left: 15%;
     width: 2rem;
   }
   .social--instagram {
     top: 56%;
-    left: 5%;
+    left: 2%;
     font-size: 2rem;
     width: 2rem;
   }
@@ -869,10 +891,22 @@ a {
     background-position: bottom left;
     background-size: 47%;
   }
+  #id-date {
+    position: absolute;
+    right: 0%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  #footer-id {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 
 .date-dostava {
-  margin-top: 20rem;
+  margin-top: 5rem;
+  position: absolute;
+  bottom: 2%;
 }
 
 .social--facebook--dostava {
@@ -906,7 +940,7 @@ a {
   .social--facebook--dostava {
     font-size: 2.3rem;
     position: absolute;
-    top: 56%;
+    top: 60%;
     left: 18%;
     width: 2rem;
   }
