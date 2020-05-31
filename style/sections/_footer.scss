@@ -62,14 +62,19 @@ footer .logo {
 
 .date {
     position: absolute;
-    bottom: 8%;
+    bottom: 7%;
     left: 40%;
     
 }
 
+.my-info:hover {
+    color: blue;
+    text-decoration: none;
+}
+
 .info {
     text-align:left;
-    padding-left: 4rem;
+    padding-left: 2rem;
     text-decoration: none;
     text-transform:uppercase;
     color: black;
@@ -158,15 +163,15 @@ a{
             &--facebook {
                 font-size: 2rem;
                 position: absolute;
-                top: 56%;
-               left: 15%;
+                top: 70%;
+               left: 17%;
                width:2rem;
             
             }
   
             &--instagram {
-                top: 56%;
-                left: 2%;
+                top: 70%;
+                left: 4%;
                 font-size: 2rem;
                 width: 2rem;
             }
